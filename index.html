@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Três sites</title>
+<link rel="stylesheet" href="shared/fonts.css">
+<style>
+  :root { --bg: #f1efea; --ink: #121212; --mid: #77746d; --line: rgba(0,0,0,.15); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Archivo', Arial, sans-serif; padding: clamp(16px, 4vw, 56px); }
+  header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--ink); padding-bottom: 10px; font-family: 'DM Mono', monospace; font-size: 12px; text-transform: uppercase; }
+  ol { list-style: none; margin: 0; padding: 0; }
+  li a { display: grid; grid-template-columns: 60px 1.2fr 1fr; gap: 20px; align-items: baseline; padding: clamp(22px, 3vw, 40px) 0; border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; transition: padding .4s cubic-bezier(.2,.7,.2,1); }
+  li a:hover { padding-left: 18px; }
+  .n { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--mid); }
+  .t { font-size: clamp(44px, 8vw, 130px); line-height: .85; letter-spacing: -.04em; }
+  .t1 { font-family: 'Bodoni Moda', serif; font-weight: 500; }
+  .t1 i { font-weight: 400; }
+  .t2 { font-weight: 900; font-stretch: 125%; }
+  .t3 { font-family: 'Big Shoulders Display', sans-serif; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; }
+  .d { font-size: 15px; line-height: 1.45; color: #3b3a36; max-width: 46ch; }
+  .d b { display: block; font-family: 'DM Mono', monospace; font-weight: 400; font-size: 11px; text-transform: uppercase; color: var(--mid); margin-bottom: 6px; }
+  footer { margin-top: 40px; font-family: 'DM Mono', monospace; font-size: 12px; color: var(--mid); max-width: 70ch; line-height: 1.6; }
+  @media (max-width: 760px) { li a { grid-template-columns: 34px 1fr; } .d { grid-column: 2; } }
+</style>
+</head>
+<body>
+<header><span>Três sites · fotos e vídeo no scroll</span><span>2026</span></header>
+<ol>
+  <li><a href="mare/">
+    <span class="n">01</span>
+    <span class="t t1">Ma<i>ré</i></span>
+    <span class="d"><b>Revista impressa · claro, serifado</b>Vídeo que cresce de uma janela até a tela cheia, ensaio fotográfico horizontal, citação que acende palavra por palavra e uma tábua de marés desenhada pelo scroll.</span>
+  </a></li>
+  <li><a href="vao/">
+    <span class="n">02</span>
+    <span class="t t2">VÃO</span>
+    <span class="d"><b>Arquitetura · grade suíça</b>Vídeo dentro das letras com zoom para dentro do traço, projetos empilhados, grade de fotos que abre até tela cheia e arquivo filtrável com prévia no cursor.</span>
+  </a></li>
+  <li><a href="altitude/">
+    <span class="n">03</span>
+    <span class="t t3">Altitude</span>
+    <span class="d"><b>Festival de cinema · escuro, granulado</b>Abertura em cinemascope, túnel 3D de fotogramas, vídeo comandado pelo scroll com timecode, película que entorta com a velocidade e ingressos de papel.</span>
+  </a></li>
+</ol>
+<footer>Fotos reais do Unsplash e vídeos do Wikimedia Commons, com autores creditados no rodapé de cada site. GSAP + ScrollTrigger + Lenis, sem framework e sem build.</footer>
+</body>
+</html>
