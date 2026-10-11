@@ -9,6 +9,10 @@ Três sites conceituais, cada um com uma linguagem visual diferente:
 | 04 | [`petshop/`](petshop/) — **Banho de Cheiro**, petshop na Vila Mariana | Azulejo de banheiro + toalha amarela, site pronto para negócio real | Tabela de preços por porte/pelo · agendamento que abre o WhatsApp com a mensagem pronta · status aberto/fechado no fuso de SP · passo a passo do banho com foto fixa · barra fixa de agendar no celular |
 | 03 | [`altitude/`](altitude/) — **Altitude**, mostra de cinema de montanha | Escuro, granulação de película, cinemascope 2.39:1 | Tarjas pretas que recolhem · túnel 3D de fotogramas · vídeo comandado pelo scroll com timecode · película que entorta com a velocidade · ingressos com picote |
 
+## Pet Camargo (prévia)
+
+`petcamargo/` é uma prévia para a Pet Camargo (Votorantim). Cores da marca em `--brand`, `--brand-deep` e `--brand-2` no topo de `petcamargo/style.css`; números de WhatsApp em `petcamargo/main.js`. Endereços, telefones e CNPJ vieram de cadastros públicos e precisam ser confirmados com a loja, assim como o horário.
+
 ## Petshop: o que trocar para usar de verdade
 
 Tudo fica no topo de `petshop/main.js`: número do WhatsApp, horário de funcionamento e a tabela de serviços e preços. Nome, endereço e telefone estão no `petshop/index.html`.
