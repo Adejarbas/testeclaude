@@ -6,7 +6,12 @@ Três sites conceituais, cada um com uma linguagem visual diferente:
 |---|---|---|---|
 | 01 | [`mare/`](mare/) — **Maré**, revista de litoral | Editorial impresso: papel, Bodoni, colunas, capitulares | Vídeo que abre de uma janela até a tela cheia · ensaio horizontal com parallax interno · citação que acende palavra por palavra · vídeo fixo com a curva da maré desenhada pelo scroll · índice com foto que segue o cursor |
 | 02 | [`vao/`](vao/) — **VÃO**, escritório de arquitetura | Grade suíça de 12 colunas, Archivo largo, mono, laranja de sinalização | Vídeo dentro das letras com zoom para dentro do traço · projetos empilhados (sticky) · grade 3×3 em que a foto central vira tela cheia · arquivo filtrável · faixa de vídeo que abre lateralmente |
+| 04 | [`petshop/`](petshop/) — **Banho de Cheiro**, petshop na Vila Mariana | Azulejo de banheiro + toalha amarela, site pronto para negócio real | Tabela de preços por porte/pelo · agendamento que abre o WhatsApp com a mensagem pronta · status aberto/fechado no fuso de SP · passo a passo do banho com foto fixa · barra fixa de agendar no celular |
 | 03 | [`altitude/`](altitude/) — **Altitude**, mostra de cinema de montanha | Escuro, granulação de película, cinemascope 2.39:1 | Tarjas pretas que recolhem · túnel 3D de fotogramas · vídeo comandado pelo scroll com timecode · película que entorta com a velocidade · ingressos com picote |
+
+## Petshop: o que trocar para usar de verdade
+
+Tudo fica no topo de `petshop/main.js`: número do WhatsApp, horário de funcionamento e a tabela de serviços e preços. Nome, endereço e telefone estão no `petshop/index.html`.
 
 ## Como abrir
 
